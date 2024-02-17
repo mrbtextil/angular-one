@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'one';
+  public title: string = 'a number with  text nothing more';
+  public counter: number = 10;
+  incrementBy( num: number):void{
+    this.counter += num;
+  }
 }

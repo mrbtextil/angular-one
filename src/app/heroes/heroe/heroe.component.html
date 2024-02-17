@@ -1,0 +1,9 @@
+  <h1>Nombre:</h1>
+  <h3>{{ name }}</h3>
+  <h1>Edad:</h1>
+  <h3>{{ edad }}</h3>
+<button (click)="changeName()">cambiar nombre</button>
+<button (click)="changeAge()">cambiar edad</button>
+<hr>
+
+  <li *ngFor="let name of her" class="her">{{ name }}</li>

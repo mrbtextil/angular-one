@@ -1,0 +1,16 @@
+<form (ngSubmit)="emitCharacter()">
+  <input
+  type="text"
+  name="name"
+  [(ngModel)]="character.name"
+  class="form-control mb-2">
+
+  <input
+  type="text"
+  name="name"
+  [(ngModel)]="character.power"
+  class="form-control mb-2">
+
+  <button type="submit">enviar</button>
+
+</form>
